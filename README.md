@@ -69,6 +69,10 @@ In this section we will outline key commands used for the analysis. Note that mo
    print_all_patents(wdfull, "Microsoft")
    ```
 ### Notebook 2
+1. Model Keywords
+   ```sh
+   output_leaders(wd)selected_words = {'certificate','storage','privacy','communication','encryption'}  # Example set of words colors = generate_dark_colors(len(selected_words)) plot_graph(selected_words, 'TF-IDF','Security',3, -0.00002)
+   ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 

@@ -36,11 +36,10 @@ This is an example of how you may give instructions on setting up your project l
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-The following prerequistes require: Jupyter
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+The following prerequistes are required:
+1. [Jupyter notebook](https://jupyter.org/)
+2. [Python](https://www.python.org/)
+3. Python Packages: </br><img src="images/packages.png" alt="PythonPackages">
 
 
 <!-- USAGE EXAMPLES -->

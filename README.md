@@ -52,7 +52,22 @@ In this section we will outline key commands used for the analysis. Note that mo
    ```sh
    output_leaders(wd)
    ```
-
+2. Display Entity
+   ```sh
+   display_entity(wdfull, "Diebold", [], [])
+   ```
+3. Display Entity with Keywords
+   ```sh
+   display_entity(wdfull, "Diebold", ["privacy","trust"], [])
+   ```
+4. Display Entity with Additional Ranges
+   ```sh
+   display_entity(wdfull, "Microsoft", ["transaction", "game", "privacy", "trust"], [("Kim Cameron", 1999, 2011, [])])
+   ```
+5. Output Patents for Entity
+   ```sh
+   print_all_patents(wdfull, "Microsoft")
+   ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 

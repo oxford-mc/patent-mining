@@ -47,7 +47,7 @@ The following prerequistes are required:
 
 In this section we will outline key commands used for the analysis. Note that more comments are available in the notebook itself
 
-### Notebook 1
+### Patent Analysis Notebook
 1. Output Patent Leaders
    ```sh
    output_leaders(wd)
@@ -68,7 +68,7 @@ In this section we will outline key commands used for the analysis. Note that mo
    ```sh
    print_all_patents(wdfull, "Microsoft")
    ```
-### Notebook 2
+### Patent Modeling Notebook
 1. Model Keywords
    ```sh
    output_leaders(wd)selected_words = {'certificate','storage','privacy','communication','encryption'}  # Example set of words colors = generate_dark_colors(len(selected_words)) plot_graph(selected_words, 'TF-IDF','Security',3, -0.00002)

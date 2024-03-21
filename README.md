@@ -71,6 +71,7 @@ This code will allow you to specify a subrange e.g. in this case years that Kim 
    ```sh
    display_entity(wdfull, "Microsoft", ["transaction", "game", "privacy", "trust"], [("Kim Cameron", 1999, 2011, [])])
    ```
+    <img src="images/display3.png" alt="Display3">
 5. Output Patents for Entity
    ```sh
    print_all_patents(wdfull, "Microsoft")

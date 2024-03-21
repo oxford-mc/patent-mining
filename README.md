@@ -47,7 +47,7 @@ The following prerequistes are required:
 
 In this section we will outline key commands used for the analysis. Note that more comments are available in the notebook itself
 
-
+### Notebook 1
 1. Output Patent Leaders
    ```sh
    output_leaders(wd)
@@ -68,6 +68,7 @@ In this section we will outline key commands used for the analysis. Note that mo
    ```sh
    print_all_patents(wdfull, "Microsoft")
    ```
+### Notebook 2
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 

@@ -59,12 +59,15 @@ In this section we will outline key commands used for the analysis. Note that mo
    ```sh
    display_entity(wdfull, "Diebold", [], [])
    ```
+   <img src="images/display1.png" alt="Display1">
 3. Display Entity with Keywords </br>
    This code will display patent count metrics for each of the provided key term search words
    ```sh
    display_entity(wdfull, "Diebold", ["privacy","trust"], [])
    ```
-4. Display Entity with Additional Ranges
+   <img src="images/display2.png" alt="Display2">
+4. Display Entity with Additional Ranges </br>
+This code will allow you to specify a subrange e.g. in this case years that Kim Cameron was on staff
    ```sh
    display_entity(wdfull, "Microsoft", ["transaction", "game", "privacy", "trust"], [("Kim Cameron", 1999, 2011, [])])
    ```

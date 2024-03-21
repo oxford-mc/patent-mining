@@ -38,7 +38,7 @@ Sample data and code to accompany published article
   <h3 align="center">Mining Digital Identity Insights: Patent Analysis using NLP</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    A repository with reproducibility package to accompany the published article
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />

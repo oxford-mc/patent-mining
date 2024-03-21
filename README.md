@@ -48,15 +48,19 @@ The following prerequistes are required:
 In this section we will outline key commands used for the analysis. Note that more comments are available in the notebook itself
 
 ### Patent Analysis Notebook
-1. Output Patent Leaders
+1. Output Patent Leaders </br>
+   The following command will output the top 12 entities by patent count over the given dataframe
    ```sh
    output_leaders(wd)
    ```
-2. Display Entity
+   <img src="images/leaders.png" alt="Leaders">
+2. Display Entity </br>
+   This code will display patent counts for the entire dataset, period 1996-2020 and post 2020. In addition it will output the first and last patents within the dataframe
    ```sh
    display_entity(wdfull, "Diebold", [], [])
    ```
-3. Display Entity with Keywords
+3. Display Entity with Keywords </br>
+   This code will display patent count metrics for each of the provided key term search words
    ```sh
    display_entity(wdfull, "Diebold", ["privacy","trust"], [])
    ```

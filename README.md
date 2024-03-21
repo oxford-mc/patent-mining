@@ -72,10 +72,12 @@ This code will allow you to specify a subrange e.g. in this case years that Kim 
    display_entity(wdfull, "Microsoft", ["transaction", "game", "privacy", "trust"], [("Kim Cameron", 1999, 2011, [])])
    ```
     <img src="images/display3.png" alt="Display3">
-5. Output Patents for Entity
+5. Output Patents for Entity </br>
+   This code will output a list of patents with patent hyperlinks by entity name
    ```sh
    print_all_patents(wdfull, "Microsoft")
    ```
+   <img src="images/display_patent" alt="Display_Patent">
 ### Patent Modeling Notebook
 1. Model Keywords
    ```sh

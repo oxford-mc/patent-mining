@@ -33,7 +33,7 @@ Sample data and code to accompany published article
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="images/oxford_logo.png" alt="OxfordLogo" width="80" height="80">
+    <img src="images/oxford_logo.png" alt="OxfordLogo" width="150" height="150">
 
   <h3 align="center">Patent Mining</h3>
 

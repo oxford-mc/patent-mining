@@ -45,21 +45,12 @@ The following prerequistes are required:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+In this section we will outline key commands used for the analysis. Note that more comments are available in the notebook itself
 
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Output Patent Leaders
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+   output_leaders(wd)
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

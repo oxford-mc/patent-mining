@@ -79,10 +79,19 @@ This code will allow you to specify a subrange e.g. in this case years that Kim 
    ```
    <img src="images/display_patent.png" alt="Display_Patent">
 ### Patent Modeling Notebook
-1. Model Keywords
+1. Model Keywords </br>
+This code will output base statistics for a search term including percentage movement, mean, std, error and will also output a chart with trend over time
    ```sh
-   output_leaders(wd)selected_words = {'certificate','storage','privacy','communication','encryption'}  # Example set of words colors = generate_dark_colors(len(selected_words)) plot_graph(selected_words, 'TF-IDF','Security',3, -0.00002)
+   selected_words = {'certificate','storage','privacy','communication','encryption'}  # Example set of words
    ```
+   ```sh
+   colors = generate_dark_colors(len(selected_words))
+   ```
+   ```sh
+   plot_graph(selected_words, 'TF-IDF','Security',3, -0.00002)
+   ```
+   <img src="images/stat1.png" alt="Stat1">
+   <img src="images/sc3.png" alt="SC3">
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 

@@ -77,7 +77,7 @@ This code will allow you to specify a subrange e.g. in this case years that Kim 
    ```sh
    print_all_patents(wdfull, "Microsoft")
    ```
-   <img src="images/display_patent" alt="Display_Patent">
+   <img src="images/display_patent.png" alt="Display_Patent">
 ### Patent Modeling Notebook
 1. Model Keywords
    ```sh
